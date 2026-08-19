@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c2ec0482e7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+    </head>
+         <body>
+            <header class="site-header">
+            <h1>Travel Anywhere</h1>
+            <!-- Add a div class so that it affects the entire navigation bar-->
+            <nav>
+                <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+                <a href="gallery.html"><i class="fa-solid fa-plane"></i> Gallery</a>
+                <a href="contact.html"><i class="fa-solid fa-phone"></i> Contact</a>
+            </nav>
+            <a class="home-sub" href="#">Explore Now!</a>
+        </header>
+
+        <main class="contact-form">
+            <h2>Contact Us!</h2>
+            <p>Please feel free to contact us for your next immersive trip! Safe Travels!</p>
+
+            <form class="page-form">
+            
+            <div class="input-control">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="name" required placeholder="John Smith"/>
+            </div>
+
+            <div class="input-control">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="example@email.com"/>
+            </div>
+            <div class="input-control">
+                <label for="phone-number">Phone Number</label>
+                <input type="tel" id="phone-number" name="phone-number" required placeholder="(xxx)-xxx-xxx">
+            </div>
+            <div class="input-control">
+                <label for="travel-start-date">Travel Start Date</label>
+                <input type="date" id="travel-start-date" name="travel-start-date" required>
+            </div>
+            <div class="input-control">
+                <label for="travel-end-date">Travel End Date</label>
+                <input type="date" id="travel-end-date" name="travel-end-date" required>
+            </div>
+            <div class="input-control">
+                <label for="package">Package Interest</label>
+                <select id="package" name="destination">
+                    <option value="" selected disabled hidden></option>
+                    <option value="philippines">Waters of The Philippines</option>
+                    <option value="italy">Villages of Italy</option>
+                    <option value="scotland">Mountains of Scotland</option>
+                </select>
+            </div>
+
+            <div class="input-control">
+                <label for="message">Special Request:</label>
+                <textarea id="message" name="message" placeholder="Type Here"></textarea>
+            </div>
+                <button type="submit" class="form-btn">Submit</button>
+            </form>
+
+
+        </main>
+    </body>
+</html>

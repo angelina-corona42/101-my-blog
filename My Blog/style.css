@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: Times, sans-serif;
+    font-family: "Montserrat", sans-serif;
     background-color:#f9d9a9 ;
 }
 a{
@@ -39,6 +39,7 @@ img{
         display:flex;
         flex-direction: column;
         align-items: center;
+        margin: 0 150px;
 }
 /*header*/
 .site-header{
@@ -73,13 +74,17 @@ h1{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
 }
 /*main*/
+
+/*Gallery Main*/
 h2{
     text-align: center;
     margin: 50px 0;
+}
+h3{
+    padding:20px;
 }
 .flex-section{
     display: flex;
@@ -107,13 +112,60 @@ h2{
     line-height: 1.5;
     text-align: justify;
 }
+/*Contact Form*/
+/*Center the form to the page*/
+.contact-form p{
+    text-align: center;
+}
+.contact-form h3{
+    text-align: center;
+}
+.page-form {
+    background-color: #c0a47b;
+    width: 40%;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 30px;
+}
+.input-control{
+    margin:20px;
+    display: flex; 
+}
+.input-control label{
+    width:25%;
+
+}
+.input-control input, .input-control select, .input-control textarea{
+    width: 75%; 
+    padding: 8px;
+    border: none;
+    border-radius: 10px; 
+}
+
+.form-btn{
+ background-color: #62b1ea;
+ padding: 10px 25px;
+ border: none;
+ text-transform: uppercase;
+ font-size: 12px;
+ border-radius: 10px;
+ color: white;
+ display: block;
+ margin: auto; 
+
+}
+.form-btn:hover{
+    background-color: #ffcc00;
+    color: black;
+}
+
 /*footer*/
 .site-footer{
     background-color: #62b1ea;
     padding: 20px;
     display: flex;
     justify-content: space-around;
-    margin-top: 200px;
+    margin-top: 333px;
     color: rgb(0, 0, 0);
 }
 footer a{
